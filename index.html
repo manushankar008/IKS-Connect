@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IKS-Connect — Explore India's Knowledge, State by State</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="home" class="view on">
+  <div class="dots"></div>
+  <div class="top">
+    <div class="kicker">IKS-Connect · Knowledge Graph + RAG</div>
+    <h1>Explore India's knowledge, <em>state by state</em></h1>
+    <p class="sub">Choose a state on the map to open its heritage assistant — grounded in a knowledge graph of texts, temples, arts and traditions.</p>
+  </div>
+  <div class="stage">
+    <svg id="map" viewBox="0 0 460 470" role="img" aria-label="Map of India"></svg>
+    <aside class="info" id="info">
+      <div class="kicker">Hover a state</div>
+      <h2>India</h2>
+      <p>29 regions · each with its own conversational guide, shaped by local arts, scriptures, food, festivals and landmarks.</p>
+    </aside>
+  </div>
+  <div class="foot"><button id="tb">◐ Theme</button></div>
+</section>
+
+<section id="chat" class="view">
+  <div class="collage" id="collage"></div><div class="veil"></div><div class="wm disp" id="wm"></div>
+  <div class="panel">
+    <div class="hd"><button id="back" aria-label="Back to map">←</button><div><h2 id="cn"></h2><small id="ct"></small></div><span class="badge">Knowledge Graph · RAG</span></div>
+    <div id="msgs"></div>
+    <div class="sg" id="sg"></div>
+    <form class="in" onsubmit="return false"><input id="q" placeholder="Ask about this state's heritage…" autocomplete="off"><button id="send">Ask</button></form>
+    <div class="demo">Aryan UI — responses are placeholders until the RAG backend is connected.</div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
