@@ -1,0 +1,174 @@
+{
+  "model": "llama3.2",
+  "source_filter": "art and culture.txt",
+  "category_filter": "culture",
+  "chunks_selected": 10,
+  "chunks_failed": 10,
+  "entities": [],
+  "relationships": [],
+  "failures": [
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "5",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "9",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "9",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "9",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "10",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "10",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "11",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "11",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "12",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "13",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    }
+  ],
+  "chunk_results": [
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "5",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "9",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "9",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "9",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "10",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "10",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "11",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "11",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "12",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+      "chunk_id": "unknown",
+      "source": "Art and Culture.txt",
+      "page": "13",
+      "entities": [],
+      "relationships": [],
+      "rejected": [],
+      "status": "failed",
+      "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    }
+  ],
+  "important_note": "Candidates have not been inserted into Neo4j. Exact evidence and type checks reduce errors but do not guarantee truth. Review every candidate before database insertion."
+}

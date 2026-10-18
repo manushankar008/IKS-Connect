@@ -1,0 +1,16 @@
+IKS-Connect entity extraction report
+Model: llama3.2
+Source filter: art and culture.txt
+Chunks selected: 10
+Chunks failed: 10
+
+CANDIDATE ENTITIES (all require human review)
+
+CANDIDATE RELATIONSHIPS (all require human review)
+
+REJECTIONS
+
+Rejected candidate count: 0
+
+Nothing was inserted into Neo4j.
+Every accepted candidate still requires human review.
